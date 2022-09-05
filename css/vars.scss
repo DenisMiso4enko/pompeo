@@ -1,0 +1,99 @@
+@mixin headerTitle {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
+
+@mixin subtitle {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #D77474;
+}
+
+@mixin text {
+    font-family: 'Libre Franklin';
+    font-size: 14px;
+    line-height: 24px;
+    color: #6C6C6C;   
+}
+@mixin title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+@mixin titleh3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 36px;
+    color: #000000;
+}
+@mixin cardName {
+    font-family: 'Libre Franklin';
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+@mixin cardPrice {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+@mixin btnRed {
+    background: #AC1313;
+    padding: 20px 40px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: .3s ease;
+    &:hover {
+        background: #780c0c;
+    }
+}
+@mixin btnBlack {
+    background: black;
+    padding: 13px 50px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: .3s ease;
+    &:hover {
+        color: black;
+        background: white;
+        border: 1px solid black;
+    }
+}
+@mixin navLinks {
+    font-family: 'Poppins';
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6C6C6C;
+    
+}
+@mixin input {
+    border: 1px solid #EBEBEB;
+    padding: 13px 10px;
+    ::placeholder {
+        font-family: 'Lato';
+        font-size: 14px;
+        line-height: 20px;
+        color: #A1A1A1;
+    }
+}

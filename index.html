@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pompeo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+<body>
+
+     <!-- modal card -->
+    <div id="modal" data-modal class="fade-block hidden">
+        <div class="shoping-cart active">
+            <h3 class="shopping-cart__title">Shopping Cart</h3>
+            <div class="shopping-cart__container">
+    
+            </div>
+            <button class="btn-close">Close</button>
+        </div>
+    </div>
+
+    <!-- ===== Header ======= -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="logo">
+                </div>
+
+                <div class="nav">
+                    <ul class="nav__menu">
+                        <li class="nav__menu-item">
+                           <a class="nav__link" href="#home">Home</a>
+                        </li>
+                        <li class="nav__menu-item">
+                           <a class="nav__link" href="#about">About</a>
+                        </li>
+                        <li class="nav__menu-item">
+                           <a class="nav__link" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav__menu-item">
+                           <a class="nav__link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="header__btns">
+                    <button id="open-cart" class="btn-cart">
+                        <img src="img/cart-icon.svg" alt="cart">
+                        <span>0</span>
+                    </button>
+                    <div class="burger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- shopping cart -->
+    <!-- <div class="shoping-cart">
+        <h3 class="shopping-cart__title">Shopping Cart</h3>
+        <div class="shopping-cart__container">
+
+        </div>
+        <button class="btn-close">Close</button>
+    </div> -->
+
+    <!-- ====== Main ====== -->
+    <main class="section main" id="home">
+        <div class="container">
+            <div class="main-inner">
+                <div class="main__content">
+                    <p class="main__subtitle">Pompeo POttery</p>
+                    <h1 class="main__header">
+                        Unique Porcelain <br>
+                        Stone Collection
+                    </h1>
+                    <p class="text">Unique & modern pottery made by our master in porcelain & stones</p>
+                    <button class="btn-main">Shop Collection</button>
+                </div>
+                <div class="main__photo">
+                    <img src="img/main-img.png" alt="vases">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ====== Section Category ====== -->
+    <section class="section section-category" id="about">
+        <div class="container">
+            <p class="subtitle">Product Categories</p>
+            <h2 class="title">Porcelain Pottery</h2>
+            <div class="category__img">
+                <div class="category__item">
+                    <img src="img/vases.svg" alt="vases">
+                </div>
+                <div class="category__item">
+                    <img src="img/mugs.svg" alt="mugs">
+                </div>
+                <div class="category__item">
+                    <img src="img/plates.svg" alt="plates">
+                </div>
+            </div>
+            <div class="category__description">
+                <div class="category__description-item">
+                    <h3 class="category__description-title">Hand Grafted <br> Pottery since 1990</h3>
+                    <p class="category__description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.</p>
+                </div>
+                <div class="category__description-item">
+                    <h3 class="category__description-title">We Provide Premium Grafted <br> Pottery Produts</h3>
+                    <p class="category__description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus posuere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-about">
+        <div class="container">
+            <div class="about">
+                <div class="about__card">
+                    <div class="about__card-img">
+                        <img src="img/black-pottery.svg" alt="vase">
+                    </div>
+                    <div class="about__card-info">
+                        <h3 class="about__card-title">Gold & Black Pottery</h3>
+                        <p class="about__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.
+                        </p>
+                        <a class="about__card-link" href="#">View Details</a>
+                    </div>
+                </div>
+                <div class="about__card about__card--2">
+                    <div class="about__card-img">
+                        <img src="img/ceramic.svg" alt="ceramic">
+                    </div>
+                    <div class="about__card-info">
+                        <h3 class="about__card-title">Gold & Black Pottery</h3>
+                        <p class="about__card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore dolore aua. Ut enim ad minim veniam, quis nostrud exercitationulco laboris nisi ut aliquip ex ea commodo consequatuisaute.
+                        </p>
+                        <a class="about__card-link" href="#">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Section Products -->
+    <section class="section section-products" id="shop">
+        <div class="container">
+            <div class="products">
+                <div class="products__subtitle">Our online store</div>
+                <div class="products__title">Pottery Collection</div>
+                <div class="products__cards">
+                    
+                    <div class="products__cards-item" data-id="01">
+                        <div class="products__photo">
+                            <img src="img/product1.jpg" alt="plate">
+                            <div class="products__btn-wrapper">
+                                <button data-cart class="btn-add">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="product__desc-info">
+                                <h4 class="product__name">Decor Plate</h4>
+                                <span class="product__price">$ 65.00 USD</span>
+                            </div>
+<!--                            <div class="product__desc-amount">-->
+<!--                                <div class="items__contror" data-action="minus">-</div>-->
+<!--                                <div class="items__counter" data-counter>1</div>-->
+<!--                                <div class="items__contror" data-action="plus">+</div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class="products__cards-item"  data-id="02">
+                        <div class="products__photo">
+                            <img src="img/product2.jpg" alt="pottery">
+                            <div class="products__btn-wrapper">
+                                <button data-cart class="btn-add">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="product__desc-info">
+                                <h4 class="product__name">Mint Pottery</h4>
+                                <span class="product__price">$ 75.00 USD</span>
+                            </div>
+<!--                            <div class="product__desc-amount">-->
+<!--                                <div class="items__contror" data-action="minus">-</div>-->
+<!--                                <div class="items__counter" data-counter>1</div>-->
+<!--                                <div class="items__contror" data-action="plus">+</div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class="products__cards-item"  data-id="03">
+                        <div class="products__photo">
+                            <img src="img/product3.jpg" alt="set">
+                            <div class="products__btn-wrapper">
+                                <button data-cart class="btn-add">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="product__desc-info">
+                                <h4 class="product__name">Set Of Potterys</h4>
+                                <span class="product__price">$ 125.00 USD</span>
+                            </div>
+<!--                            <div class="product__desc-amount">-->
+<!--                                <div class="items__contror" data-action="minus">-</div>-->
+<!--                                <div class="items__counter" data-counter>1</div>-->
+<!--                                <div class="items__contror" data-action="plus">+</div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class="products__cards-item"  data-id="04">
+                        <div class="products__photo">
+                            <img src="img/product4.jpg" alt="ceramic">
+                            <div class="products__btn-wrapper">
+                                <button data-cart class="btn-add">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="product__desc-info">
+                                <h4 class="product__name">Orange Ceramic</h4>
+                                <span class="product__price">$ 55.00 USD</span>
+                            </div>
+<!--                            <div class="product__desc-amount">-->
+<!--                                <div class="items__contror" data-action="minus">-</div>-->
+<!--                                <div class="items__counter" data-counter>1</div>-->
+<!--                                <div class="items__contror" data-action="plus">+</div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class="products__cards-item"  data-id="05">
+                        <div class="products__photo">
+                            <img src="img/product5.jpg" alt="bowl">
+                            <div class="products__btn-wrapper">
+                                <button data-cart class="btn-add">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="product__desc-info">
+                                <h4 class="product__name">Dark Bowl</h4>
+                                <span class="product__price">$ 115.00 USD</span>
+                            </div>
+<!--                            <div class="product__desc-amount">-->
+<!--                                <div class="items__contror" data-action="minus">-</div>-->
+<!--                                <div class="items__counter" data-counter>1</div>-->
+<!--                                <div class="items__contror" data-action="plus">+</div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class="products__cards-item"  data-id="06">
+                        <div class="products__photo">
+                            <img src="img/product6.jpg" alt="square">
+                            <div class="products__btn-wrapper">
+                                <button data-cart class="btn-add">Add to cart</button>
+                            </div>
+                        </div>
+                        <div class="product__desc">
+                            <div class="product__desc-info">
+                                <h4 class="product__name">Square Pottery</h4>
+                                <span class="product__price">$ 75.00 USD</span>
+                            </div>
+<!--                            <div class="product__desc-amount">-->
+<!--                                <div class="items__contror" data-action="minus">-</div>-->
+<!--                                <div class="items__counter" data-counter>1</div>-->
+<!--                                <div class="items__contror" data-action="plus">+</div>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-procucts">View All Products</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Section shopping ======= -->
+    <section class="section-shopping">
+        <div class="container">
+            <div class="shopping__content">
+                <p class="shopping__subtitle">Pompeo POttery</p>
+                <h2 class="shopping__title">Ready to start shopping?</h2>
+                <p class="shopping__text">Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a> . Suspendisse varius enim in eros elementum.</p>
+                <button class="btn-red">New Collection</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Section Contact ======= -->
+    <section class="section section-contact" id="contact">
+        <div class="container">
+            <div class="contact">
+                <p class="contact__subtitle">Latest news</p>
+                <h2 class="contact__title">Latest news New updates</h2>
+                <form class="contact__form">
+                    <div class="input-wrapper">
+                        <input class="form__input" type="emil" required>
+                        <button class="btn-form" type="submit">SUBSCRIBE</button>
+                    </div>
+                    <div class="form__check">
+                        <label class="label">
+                            <input  type="checkbox">
+                            <span class="fake"></span>
+                            <span class="check-text">Sign up for our newsletter</span>
+                        </label>
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= Footer ======= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <img src="img/logo.svg" alt="logo">
+                <p class="logo__desc">I have always striven to fix beauty in wood, stone, <br>glass or pottery, that has been my creed.</p>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content-item">
+                    <img src="img/mail.svg" alt="mail">
+                    <h4 class="footer_content-title">EMAIL</h4>
+                    <a href="mailto:pompeopotery@gmail.com" class="footer_content-link">pompeopotery@gmail.com</a>
+                </div>
+                <div class="footer__content-item">
+                    <img src="img/find.svg" alt="find">
+                    <h4 class="footer_content-title">EMAIL</h4>
+                    <a href="#" class="footer_content-link">Central Park, Manhattan <br> New York, 1101</a>
+                </div>
+                <div class="footer__content-item">
+                    <img src="img/call.svg" alt="call">
+                    <h4 class="footer_content-title">EMAIL</h4>
+                    <a href="callto:+1292345678" class="footer_content-link">+1 292 345 678</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__bottom-text">
+                Template design by <a href="#">Dorian Hoxha</a> - <a href="#">Image License Info</a> Powered by <a href="#">Webflow</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+<!--<p data-counter class="cart-item__amount">Amount   <span>${productInfo.counter}</span></p>-->
